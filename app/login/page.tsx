@@ -111,6 +111,12 @@ export default function LoginPage() {
         <p className="text-center text-xs text-gray-400 mt-6">
           Grosslight Consulting · Demo Build
         </p>
+        <div className="mt-4 p-3 bg-gray-50 rounded-lg border border-gray-200 text-xs text-gray-500 space-y-1">
+          <p className="font-semibold text-gray-600 mb-1">Demo accounts:</p>
+          <p>Manager: <span className="font-mono select-all">luis@iglesiasdairy.com</span> / <span className="font-mono select-all">IglesiasDairy2026!</span></p>
+          <p>Worker: <span className="font-mono select-all">carlos@iglesiasdairy.com</span> / <span className="font-mono select-all">Worker2026!</span></p>
+          <p>Worker: <span className="font-mono select-all">miguel@iglesiasdairy.com</span> / <span className="font-mono select-all">Worker2026!</span></p>
+        </div>
       </div>
     </div>
   )
